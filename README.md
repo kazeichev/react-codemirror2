@@ -6,6 +6,7 @@
 [![NPM Version](https://img.shields.io/npm/v/react-codemirror2.svg?style=flat-square)](https://www.npmjs.com/package/react-codemirror2)
 
 ### react-codemirror2
+fork from [react-codemirror2](https://github.com/scniro/react-codemirror2)
 
 demo @ [scniro.github.io/react-codemirror2](https://scniro.github.io/react-codemirror2/)
 
@@ -13,7 +14,7 @@ demo @ [scniro.github.io/react-codemirror2](https://scniro.github.io/react-codem
 ## Install
 
 ```bash
-npm install react-codemirror2 codemirror --save
+npm install react-codemirror2-react-17 codemirror --save
 ```
 
 `react-codemirror2` ships with the notion of an [uncontrolled](https://reactjs.org/docs/uncontrolled-components.html) and [controlled](https://reactjs.org/docs/forms.html#controlled-components) component. `UnControlled` consists of a simple wrapper largely powered by the inner workings of `codemirror` itself, while `Controlled` will demand state management from the user, preventing codemirror changes unless properly handled via `value`. The latter will offer more control and likely be more appropriate with [redux](http://redux.js.org/) heavy apps.
